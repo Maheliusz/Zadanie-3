@@ -10,19 +10,19 @@ int main(int argc, char *argv[])
     //for(int i=0; i<argc-1; i++) cout<<tab[i]<<endl;
     if(argc>10){
         if(((tab[0]==tab[1] && tab[2]!=tab[3]) || tab[4]>tab[5]) && (tab[6]<=tab[7] && tab[8]==tab[9]))
-            cout<<1<<endl;
+            cout<<1<<" ";
         else
-            cout<<0<<endl;
+            cout<<0<<" ";
     }else if(argc>8){
         if((tab[0]==tab[1] && tab[2]!=tab[3]) || (tab[4]>tab[5] && tab[6]<=tab[7]))
-            cout<<1<<endl;
+            cout<<1<<" ";
         else
-            cout<<0<<endl;
+            cout<<0<<" ";
     }else if (argc>6){
         if(((tab[0]==tab[1] && tab[2]!=tab[3]) || tab[4]>tab[5]))
-            cout<<1<<endl;
+            cout<<1<<" ";
         else
-            cout<<0<<endl;
+            cout<<0<<" ";
     } else cout<<"Za malo argumentow";
     return 0;
 }
